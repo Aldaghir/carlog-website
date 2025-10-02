@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="CarLog - تطبيق احترافي لإدارة وتتبع سجلات صيانة سياراتك">
+    <meta name="keywords" content="صيانة السيارات, سجل السيارة, تتبع الصيانة, CarLog">
+    <title>CarLog - سجل صيانة سياراتك الاحترافي</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="logo">
+                        <svg width="40" height="40" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="carGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#357ABD;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <g transform="translate(256, 300)">
+                                <path d="M -125 5 L -125 45 Q -125 60 -110 60 L -85 60 L -65 60 L 65 60 L 85 60 L 110 60 Q 125 60 125 45 L 125 5 Q 125 -20 115 -35 L 95 -65 L 75 -80 Q 60 -90 40 -90 L -40 -90 Q -60 -90 -75 -80 L -95 -65 L -115 -35 Q -125 -20 -125 5 Z" fill="url(#carGradient)" stroke="#B3E5FC" stroke-width="3"/>
+                                <g transform="translate(-75, 60)">
+                                    <circle r="28" fill="#1A1A1A"/>
+                                    <circle r="24" fill="#2E2E2E"/>
+                                    <circle r="12" fill="#4A4A4A"/>
+                                    <circle r="6" fill="#666666"/>
+                                </g>
+                                <g transform="translate(75, 60)">
+                                    <circle r="28" fill="#1A1A1A"/>
+                                    <circle r="24" fill="#2E2E2E"/>
+                                    <circle r="12" fill="#4A4A4A"/>
+                                    <circle r="6" fill="#666666"/>
+                                </g>
+                                <rect x="-95" y="-50" width="80" height="40" rx="8" fill="#B3E5FC" opacity="0.6"/>
+                                <rect x="15" y="-50" width="80" height="40" rx="8" fill="#B3E5FC" opacity="0.6"/>
+                            </g>
+                        </svg>
+                        <span class="logo-text">CarLog</span>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#home" class="active">الرئيسية</a></li>
+                        <li><a href="#features">المميزات</a></li>
+                        <li><a href="#download">التحميل</a></li>
+                        <li><a href="privacy.html">سياسة الخصوصية</a></li>
+                        <li><a href="terms.html">شروط الاستخدام</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">CarLog</span>
+                        <br>سجل صيانة سياراتك الاحترافي
+                    </h1>
+                    <p class="hero-description">
+                        تطبيق شامل ومتقدم لإدارة وتتبع جميع سجلات صيانة سياراتك، تتبع استهلاك الوقود، والحصول على إشعارات ذكية للصيانات القادمة. كل بياناتك محفوظة بأمان على جهازك دون الحاجة للإنترنت.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#download" class="btn btn-primary">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"/>
+                            </svg>
+                            تحميل التطبيق
+                        </a>
+                        <a href="#features" class="btn btn-secondary">اكتشف المميزات</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="phone-mockup">
+                        <div class="phone-screen">
+                            <img src="app-screenshot.png" alt="CarLog App Screenshot" style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">مميزات التطبيق</h2>
+                <p class="section-description">كل ما تحتاجه لإدارة سياراتك بكفاءة واحترافية</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                            <polyline points="14 2 14 8 20 8"/>
+                            <line x1="16" y1="13" x2="8" y2="13"/>
+                            <line x1="16" y1="17" x2="8" y2="17"/>
+                            <polyline points="10 9 9 9 8 9"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">سجل صيانة شامل</h3>
+                    <p class="feature-description">تتبع جميع أنواع الصيانات مع تفاصيل كاملة: التكلفة، المسافة، التاريخ، ومركز الخدمة</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 8h1a4 4 0 0 1 0 8h-1M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/>
+                            <line x1="6" y1="1" x2="6" y2="4"/>
+                            <line x1="10" y1="1" x2="10" y2="4"/>
+                            <line x1="14" y1="1" x2="14" y2="4"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">تتبع استهلاك الوقود</h3>
+                    <p class="feature-description">سجل تعبئة الوقود وراقب معدل الاستهلاك والتكلفة مع إحصائيات تفصيلية</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/>
+                            <path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">إشعارات ذكية</h3>
+                    <p class="feature-description">تنبيهات تلقائية للصيانات القادمة والمتأخرة مع أولويات ذكية</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="12" y1="1" x2="12" y2="23"/>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">تقارير مالية شاملة</h3>
+                    <p class="feature-description">تحليل مفصل للتكاليف حسب النوع والفترة الزمنية ومركز الخدمة</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/>
+                            <path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">خصوصية كاملة</h3>
+                    <p class="feature-description">جميع البيانات محفوظة محليًا على جهازك، لا يتطلب الاتصال بالإنترنت</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="23 4 23 10 17 10"/>
+                            <polyline points="1 20 1 14 7 14"/>
+                            <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">نسخ احتياطي واستعادة</h3>
+                    <p class="feature-description">احفظ بياناتك بأمان واستعدها بسهولة في أي وقت</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 6v6l4 2"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">تذكير بالصيانة الوقائية</h3>
+                    <p class="feature-description">اقتراحات ذكية للصيانة الوقائية بناءً على تاريخ سيارتك</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+                            <line x1="12" y1="22.08" x2="12" y2="12"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">دعم متعدد العملات والوحدات</h3>
+                    <p class="feature-description">12 عملة مختلفة مع دعم الكيلومتر والميل</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download">
+        <div class="container">
+            <div class="download-content">
+                <div class="download-text">
+                    <h2 class="download-title">جاهز لتجربة CarLog؟</h2>
+                    <p class="download-description">حمّل التطبيق الآن وابدأ في تتبع صيانة سياراتك باحترافية</p>
+                    <div class="download-buttons">
+                        <a href="#" class="store-button google-play">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M3,20.5V3.5C3,2.91 3.34,2.39 3.84,2.15L13.69,12L3.84,21.85C3.34,21.6 3,21.09 3,20.5M16.81,15.12L6.05,21.34L14.54,12.85L16.81,15.12M20.16,10.81C20.5,11.08 20.75,11.5 20.75,12C20.75,12.5 20.53,12.9 20.18,13.18L17.89,14.5L15.39,12L17.89,9.5L20.16,10.81M6.05,2.66L16.81,8.88L14.54,11.15L6.05,2.66Z"/>
+                            </svg>
+                            <div>
+                                <span>متوفر على</span>
+                                <strong>Google Play</strong>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <svg width="32" height="32" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="carGradientFooter" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#357ABD;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <g transform="translate(256, 300)">
+                                <path d="M -125 5 L -125 45 Q -125 60 -110 60 L -85 60 L -65 60 L 65 60 L 85 60 L 110 60 Q 125 60 125 45 L 125 5 Q 125 -20 115 -35 L 95 -65 L 75 -80 Q 60 -90 40 -90 L -40 -90 Q -60 -90 -75 -80 L -95 -65 L -115 -35 Q -125 -20 -125 5 Z" fill="url(#carGradientFooter)"/>
+                                <circle cx="-75" cy="60" r="24" fill="#1A1A1A"/>
+                                <circle cx="75" cy="60" r="24" fill="#1A1A1A"/>
+                            </g>
+                        </svg>
+                        <span class="logo-text">CarLog</span>
+                    </div>
+                    <p class="footer-description">تطبيق احترافي لإدارة وتتبع سجلات صيانة سياراتك</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>روابط سريعة</h4>
+                        <ul>
+                            <li><a href="#home">الرئيسية</a></li>
+                            <li><a href="#features">المميزات</a></li>
+                            <li><a href="#download">التحميل</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>قانوني</h4>
+                        <ul>
+                            <li><a href="privacy.html">سياسة الخصوصية</a></li>
+                            <li><a href="terms.html">شروط الاستخدام</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>تواصل معنا</h4>
+                        <ul>
+                            <li><a href="mailto:android@aldaghir.com">android@aldaghir.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CarLog. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Active nav link on scroll
+        window.addEventListener('scroll', () => {
+            let current = '';
+            const sections = document.querySelectorAll('section');
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (scrollY >= sectionTop - 100) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            document.querySelectorAll('.nav-links a').forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
