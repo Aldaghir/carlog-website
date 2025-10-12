@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="دليل استخدام شامل لتطبيق CarLog - تعلم كيفية إدارة صيانة سياراتك، تتبع الوقود، والحصول على تقارير مفصلة">
+    <meta name="keywords" content="دليل CarLog, كيفية استخدام CarLog, شرح تطبيق صيانة السيارات">
+    <title>دليل الاستخدام - CarLog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="container">
+                <div class="nav-content">
+                    <div class="logo">
+                        <svg width="40" height="40" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="carGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#357ABD;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <g transform="translate(256, 300)">
+                                <path d="M -125 5 L -125 45 Q -125 60 -110 60 L -85 60 L -65 60 L 65 60 L 85 60 L 110 60 Q 125 60 125 45 L 125 5 Q 125 -20 115 -35 L 95 -65 L 75 -80 Q 60 -90 40 -90 L -40 -90 Q -60 -90 -75 -80 L -95 -65 L -115 -35 Q -125 -20 -125 5 Z" fill="url(#carGradient)" stroke="#B3E5FC" stroke-width="3"/>
+                                <g transform="translate(-75, 60)">
+                                    <circle r="28" fill="#1A1A1A"/>
+                                    <circle r="24" fill="#2E2E2E"/>
+                                    <circle r="12" fill="#4A4A4A"/>
+                                    <circle r="6" fill="#666666"/>
+                                </g>
+                                <g transform="translate(75, 60)">
+                                    <circle r="28" fill="#1A1A1A"/>
+                                    <circle r="24" fill="#2E2E2E"/>
+                                    <circle r="12" fill="#4A4A4A"/>
+                                    <circle r="6" fill="#666666"/>
+                                </g>
+                                <rect x="-95" y="-50" width="80" height="40" rx="8" fill="#B3E5FC" opacity="0.6"/>
+                                <rect x="15" y="-50" width="80" height="40" rx="8" fill="#B3E5FC" opacity="0.6"/>
+                            </g>
+                        </svg>
+                        <span class="logo-text">CarLog</span>
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="index.html#features">المميزات</a></li>
+                        <li><a href="guide.html" class="active">دليل الاستخدام</a></li>
+                        <li><a href="faq.html">الأسئلة الشائعة</a></li>
+                        <li><a href="index.html#download">التحميل</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Guide Section -->
+    <section class="policy-section">
+        <div class="container">
+            <div class="policy-content">
+                <h1 class="policy-title">📖 دليل استخدام CarLog</h1>
+                <p class="policy-date">دليل شامل لاستخدام جميع ميزات التطبيق</p>
+
+                <div class="policy-intro">
+                    <p><strong>مرحباً بك في CarLog!</strong> هذا الدليل سيساعدك على الاستفادة الكاملة من جميع ميزات التطبيق لإدارة صيانة سياراتك بشكل احترافي.</p>
+                </div>
+
+                <!-- Quick Start -->
+                <div class="policy-block">
+                    <h2>🚀 البدء السريع (3 خطوات فقط)</h2>
+
+                    <div class="guide-steps">
+                        <div class="guide-step">
+                            <div class="step-number">1</div>
+                            <div class="step-content">
+                                <h3>أضف سيارتك الأولى</h3>
+                                <p>افتح التطبيق واضغط على زر <strong>"+ إضافة سيارة جديدة"</strong></p>
+                                <ul>
+                                    <li>أدخل معلومات السيارة: الشركة، الطراز، الموديل، رقم اللوحة</li>
+                                    <li>سجّل العداد الحالي (مهم جداً لحساب الصيانة القادمة)</li>
+                                    <li>اختر اللون وأضف ملاحظات إن أردت</li>
+                                </ul>
+                                <div class="tip-box">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <circle cx="12" cy="12" r="10"/>
+                                        <path d="M12 16v-4M12 8h.01"/>
+                                    </svg>
+                                    <span><strong>نصيحة:</strong> تأكد من دقة العداد الحالي - سيستخدمه التطبيق لحساب مواعيد الصيانة القادمة</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="guide-step">
+                            <div class="step-number">2</div>
+                            <div class="step-content">
+                                <h3>سجّل صيانتك الأولى</h3>
+                                <p>اضغط على السيارة ثم <strong>"+ إضافة صيانة"</strong></p>
+                                <ul>
+                                    <li>اختر نوع الصيانة من <strong>23 نوع متوفر</strong> (زيت محرك، فلاتر، فرامل...)</li>
+                                    <li>أدخل التاريخ والعداد عند الصيانة</li>
+                                    <li>سجّل التكلفة ومركز الخدمة (اختياري)</li>
+                                    <li><strong>سيحسب التطبيق تلقائياً</strong> موعد الصيانة القادمة بناءً على المعايير القياسية</li>
+                                </ul>
+                                <div class="tip-box success">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                                        <polyline points="22 4 12 14.01 9 11.01"/>
+                                    </svg>
+                                    <span><strong>ميزة ذكية:</strong> لكل نوع صيانة فترة افتراضية محددة (مثلاً: زيت المحرك كل 5,000 كم)</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="guide-step">
+                            <div class="step-number">3</div>
+                            <div class="step-content">
+                                <h3>احصل على إشعارات ذكية</h3>
+                                <p>التطبيق سينبهك تلقائياً عندما تقترب من موعد أي صيانة</p>
+                                <ul>
+                                    <li><strong>إشعارات ذكية</strong> بناءً على العداد والتاريخ</li>
+                                    <li>تنبيهات بالصيانات المتأخرة</li>
+                                    <li>اقتراحات للصيانة الوقائية</li>
+                                    <li>تذكير بتحديث العداد</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Detailed Features -->
+                <div class="policy-block">
+                    <h2>🔧 إدارة الصيانة - الدليل الكامل</h2>
+
+                    <h3>أنواع الصيانة المدعومة (23 نوع)</h3>
+                    <div class="maintenance-types-grid">
+                        <div class="maintenance-category">
+                            <h4>🛢️ صيانة المحرك</h4>
+                            <ul>
+                                <li><strong>زيت المحرك</strong> - كل 5,000 كم</li>
+                                <li><strong>فلتر الزيت</strong> - كل 5,000 كم</li>
+                                <li><strong>البواجي</strong> - كل 60,000 كم</li>
+                                <li><strong>سير التايمن</strong> - كل 100,000 كم</li>
+                                <li><strong>سير المكينة</strong> - كل 80,000 كم</li>
+                            </ul>
+                        </div>
+
+                        <div class="maintenance-category">
+                            <h4>🔍 الفلاتر</h4>
+                            <ul>
+                                <li><strong>فلتر الهواء</strong> - كل 20,000 كم</li>
+                                <li><strong>فلتر الوقود</strong> - كل 40,000 كم</li>
+                                <li><strong>فلتر المكيف</strong> - كل 15,000 كم</li>
+                            </ul>
+                        </div>
+
+                        <div class="maintenance-category">
+                            <h4>🛑 نظام الفرامل</h4>
+                            <ul>
+                                <li><strong>فحمات أمامية</strong> - كل 30,000 كم</li>
+                                <li><strong>فحمات خلفية</strong> - كل 40,000 كم</li>
+                                <li><strong>زيت الفرامل</strong> - كل 40,000 كم أو سنتين</li>
+                            </ul>
+                        </div>
+
+                        <div class="maintenance-category">
+                            <h4>💧 السوائل</h4>
+                            <ul>
+                                <li><strong>زيت القير</strong> - كل 80,000 كم</li>
+                                <li><strong>ماء الرديتر</strong> - كل 80,000 كم أو 3 سنوات</li>
+                                <li><strong>زيت المقود</strong> - كل 60,000 كم</li>
+                            </ul>
+                        </div>
+
+                        <div class="maintenance-category">
+                            <h4>⚡ الكهرباء</h4>
+                            <ul>
+                                <li><strong>البطارية</strong> - كل 3 سنوات</li>
+                                <li><strong>مساحات الزجاج</strong> - كل سنة</li>
+                            </ul>
+                        </div>
+
+                        <div class="maintenance-category">
+                            <h4>🚗 الإطارات والتعليق</h4>
+                            <ul>
+                                <li><strong>تدوير الإطارات</strong> - كل 10,000 كم</li>
+                                <li><strong>تغيير الإطارات</strong> - كل 60,000 كم</li>
+                                <li><strong>ترصيص العجلات</strong> - كل 20,000 كم</li>
+                                <li><strong>ضبط الزوايا</strong> - كل 20,000 كم</li>
+                                <li><strong>المساعدين</strong> - كل 80,000 كم</li>
+                            </ul>
+                        </div>
+
+                        <div class="maintenance-category">
+                            <h4>🔧 أخرى</h4>
+                            <ul>
+                                <li><strong>فحص شامل</strong> - كل 10,000 كم أو 6 أشهر</li>
+                                <li><strong>صيانة المكيف</strong> - كل سنة</li>
+                                <li><strong>صيانة أخرى</strong> - حسب الحاجة</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <h3>كيفية تسجيل صيانة</h3>
+                    <ol class="numbered-list">
+                        <li>من الشاشة الرئيسية، اختر السيارة</li>
+                        <li>اضغط على زر <strong>"+ إضافة صيانة"</strong></li>
+                        <li>املأ البيانات المطلوبة:
+                            <ul>
+                                <li><strong>نوع الصيانة:</strong> اختر من القائمة أو "أخرى" للصيانات المخصصة</li>
+                                <li><strong>التاريخ:</strong> تاريخ إجراء الصيانة</li>
+                                <li><strong>العداد:</strong> قراءة العداد عند الصيانة</li>
+                                <li><strong>التكلفة:</strong> اختياري - يساعد في التقارير المالية</li>
+                                <li><strong>مركز الخدمة:</strong> اختياري - لتتبع أفضل المراكز</li>
+                                <li><strong>الفترة:</strong> سيتم ملؤها تلقائياً، يمكنك تعديلها</li>
+                            </ul>
+                        </li>
+                        <li>اضغط <strong>"حفظ الصيانة"</strong></li>
+                    </ol>
+
+                    <div class="warning-box">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+                            <line x1="12" y1="9" x2="12" y2="13"/>
+                            <line x1="12" y1="17" x2="12.01" y2="17"/>
+                        </svg>
+                        <span><strong>تنبيه مهم:</strong> إذا أدخلت عداد أقل من عداد السيارة الحالي، سيتم حفظ السجل لكن لن يتم تحديث عداد السيارة (لتجنب الأخطاء)</span>
+                    </div>
+                </div>
+
+                <!-- Fuel Tracking -->
+                <div class="policy-block">
+                    <h2>⛽ تتبع الوقود والاستهلاك</h2>
+
+                    <h3>لماذا تتبع الوقود؟</h3>
+                    <ul>
+                        <li>📊 معرفة معدل استهلاك سيارتك الحقيقي (كم/لتر)</li>
+                        <li>💰 حساب تكلفة الوقود الشهرية والسنوية</li>
+                        <li>🔍 اكتشاف المشاكل المبكرة (زيادة الاستهلاك = مشكلة محتملة)</li>
+                        <li>📈 مقارنة الأداء عبر الزمن</li>
+                    </ul>
+
+                    <h3>كيفية تسجيل تعبئة الوقود</h3>
+                    <ol class="numbered-list">
+                        <li>اذهب إلى تبويب <strong>"تتبع الوقود"</strong> في قائمة السيارة</li>
+                        <li>اضغط <strong>"+ إضافة تعبئة وقود"</strong></li>
+                        <li>املأ البيانات:
+                            <ul>
+                                <li><strong>كمية الوقود:</strong> باللتر (أو جالون إذا غيّرت الوحدة)</li>
+                                <li><strong>التكلفة:</strong> المبلغ المدفوع</li>
+                                <li><strong>العداد:</strong> قراءة العداد عند التعبئة</li>
+                                <li><strong>نوع الوقود:</strong> بنزين 91، 95، ديزل، كهرباء، هجين</li>
+                                <li><strong>تعبئة كاملة:</strong> فعّل هذا الخيار إذا ملأت التنك كاملاً (مهم لحساب الاستهلاك)</li>
+                                <li><strong>محطة الوقود:</strong> اختياري</li>
+                            </ul>
+                        </li>
+                    </ol>
+
+                    <div class="tip-box success">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                            <polyline points="22 4 12 14.01 9 11.01"/>
+                        </svg>
+                        <span><strong>للحصول على أدق النتائج:</strong> سجّل تعبئة كاملة (Full Tank) في كل مرة، هذا يساعد التطبيق على حساب الاستهلاك بدقة</span>
+                    </div>
+
+                    <h3>قراءة إحصائيات الوقود</h3>
+                    <p>التطبيق يعرض لك:</p>
+                    <ul>
+                        <li><strong>متوسط الاستهلاك:</strong> كم/لتر (أو ميل/جالون)</li>
+                        <li><strong>إجمالي الوقود:</strong> كمية الوقود الكلية</li>
+                        <li><strong>إجمالي التكلفة:</strong> كم أنفقت على الوقود</li>
+                        <li><strong>متوسط سعر اللتر:</strong> معدل السعر الذي تدفعه</li>
+                        <li><strong>متوسط التكلفة/كم:</strong> كم يكلفك كل كيلومتر</li>
+                    </ul>
+                </div>
+
+                <!-- Reports -->
+                <div class="policy-block">
+                    <h2>📊 التقارير والإحصائيات</h2>
+
+                    <h3>التقارير المتاحة</h3>
+
+                    <div class="report-type">
+                        <h4>📅 التقرير الشهري</h4>
+                        <p>يعرض جميع الصيانات والتكاليف خلال الشهر الحالي أو أي شهر سابق</p>
+                        <ul>
+                            <li>عدد عمليات الصيانة</li>
+                            <li>إجمالي المصروفات</li>
+                            <li>متوسط التكلفة للصيانة الواحدة</li>
+                            <li>الأكثر تكلفة في الشهر</li>
+                        </ul>
+                    </div>
+
+                    <div class="report-type">
+                        <h4>📆 التقرير السنوي</h4>
+                        <p>نظرة شاملة على السنة كاملة</p>
+                        <ul>
+                            <li>إجمالي تكاليف الصيانة السنوية</li>
+                            <li>متوسط التكلفة الشهرية</li>
+                            <li>أكثر أنواع الصيانة تكراراً</li>
+                            <li>توزيع التكاليف حسب النوع</li>
+                        </ul>
+                    </div>
+
+                    <div class="report-type">
+                        <h4>🌐 التقرير الشامل</h4>
+                        <p>جميع السجلات منذ بداية استخدام التطبيق</p>
+                        <ul>
+                            <li>إجمالي المصروفات على السيارة</li>
+                            <li>عدد الصيانات الكلي</li>
+                            <li>التكاليف حسب مركز الخدمة</li>
+                            <li>إحصائيات الوقود الكاملة</li>
+                        </ul>
+                    </div>
+
+                    <h3>كيفية استخدام التقارير</h3>
+                    <ol class="numbered-list">
+                        <li>اذهب إلى تبويب <strong>"التقارير"</strong></li>
+                        <li>اختر السيارة (أو "جميع السيارات" في Premium)</li>
+                        <li>اختر نوع التقرير والفترة الزمنية</li>
+                        <li>استعرض الإحصائيات التفصيلية</li>
+                    </ol>
+
+                    <div class="premium-badge">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                        <strong>Premium:</strong> يمكنك عرض تقارير جميع السيارات في شاشة واحدة - النسخة المجانية تعرض سيارة واحدة فقط
+                    </div>
+                </div>
+
+                <!-- Notifications -->
+                <div class="policy-block">
+                    <h2>🔔 نظام الإشعارات الذكية</h2>
+
+                    <h3>أنواع الإشعارات</h3>
+
+                    <div class="notification-types">
+                        <div class="notif-type critical">
+                            <div class="notif-badge">⚠️ حرجة</div>
+                            <h4>صيانة متأخرة</h4>
+                            <p>عندما تتأخر عن موعد صيانة مهمة (مثل: زيت المحرك)</p>
+                        </div>
+
+                        <div class="notif-type high">
+                            <div class="notif-badge">🔴 عالية</div>
+                            <h4>صيانة مستحقة</h4>
+                            <p>عندما يحين موعد الصيانة حسب العداد أو التاريخ</p>
+                        </div>
+
+                        <div class="notif-type medium">
+                            <div class="notif-badge">🟡 متوسطة</div>
+                            <h4>صيانة قادمة</h4>
+                            <p>تنبيه مسبق قبل موعد الصيانة بـ 500-1000 كم</p>
+                        </div>
+
+                        <div class="notif-type low">
+                            <div class="notif-badge">🟢 منخفضة</div>
+                            <h4>اقتراحات وقائية</h4>
+                            <p>تذكيرات للصيانات التي لم تجرها منذ فترة طويلة</p>
+                        </div>
+                    </div>
+
+                    <h3>ميزات النظام الذكي</h3>
+                    <ul>
+                        <li>⏰ <strong>حسابات تلقائية:</strong> بناءً على آخر صيانة والفترات المحددة</li>
+                        <li>📍 <strong>تنبيهات بالمسافة:</strong> يحسب المسافة المتبقية لكل صيانة</li>
+                        <li>📅 <strong>تنبيهات بالتاريخ:</strong> للصيانات الزمنية (مثل البطارية كل 3 سنوات)</li>
+                        <li>🎯 <strong>أولويات ذكية:</strong> يرتب الصيانات حسب الأهمية والإلحاح</li>
+                        <li>💡 <strong>اقتراحات وقائية:</strong> ينبهك للصيانات التي لم تجرها أبداً</li>
+                        <li>🔄 <strong>تذكير بتحديث العداد:</strong> إذا لم تحدث العداد منذ فترة</li>
+                    </ul>
+
+                    <div class="tip-box">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M12 16v-4M12 8h.01"/>
+                        </svg>
+                        <span><strong>ملاحظة:</strong> الإشعارات داخلية فقط (لا تظهر في شريط الإشعارات) - لحماية خصوصيتك بدون طلب أذونات</span>
+                    </div>
+                </div>
+
+                <!-- Settings -->
+                <div class="policy-block">
+                    <h2>⚙️ الإعدادات والتخصيص</h2>
+
+                    <h3>إعدادات العملة</h3>
+                    <p>يدعم التطبيق <strong>12 عملة مختلفة:</strong></p>
+                    <ul class="currency-list">
+                        <li>🇸🇦 ريال سعودي (ر.س)</li>
+                        <li>🇦🇪 درهم إماراتي (د.إ)</li>
+                        <li>🇰🇼 دينار كويتي (د.ك)</li>
+                        <li>🇧🇭 دينار بحريني (د.ب)</li>
+                        <li>🇴🇲 ريال عماني (ر.ع)</li>
+                        <li>🇶🇦 ريال قطري (ر.ق)</li>
+                        <li>🇪🇬 جنيه مصري (ج.م)</li>
+                        <li>🇯🇴 دينار أردني (د.أ)</li>
+                        <li>🇱🇧 ليرة لبنانية (ل.ل)</li>
+                        <li>🇺🇸 دولار أمريكي ($)</li>
+                        <li>🇪🇺 يورو (€)</li>
+                        <li>🇬🇧 جنيه استرليني (£)</li>
+                    </ul>
+
+                    <h3>إعدادات وحدة المسافة</h3>
+                    <ul>
+                        <li><strong>كيلومتر (كم):</strong> للنظام المتري</li>
+                        <li><strong>ميل (mi):</strong> للنظام الإمبراطوري</li>
+                    </ul>
+                    <p>عند التغيير، سيتم تحويل جميع القيم تلقائياً</p>
+
+                    <h3>إعدادات اللغة</h3>
+                    <ul>
+                        <li>🇸🇦 العربية (كامل مع RTL)</li>
+                        <li>🇬🇧 English (متاح الآن)</li>
+                    </ul>
+                </div>
+
+                <!-- Backup -->
+                <div class="policy-block">
+                    <h2>💾 النسخ الاحتياطي والاستعادة</h2>
+
+                    <div class="premium-badge">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"/>
+                        </svg>
+                        <strong>ميزة Premium</strong>
+                    </div>
+
+                    <h3>إنشاء نسخة احتياطية</h3>
+                    <ol class="numbered-list">
+                        <li>اذهب إلى <strong>الإعدادات → النسخ الاحتياطي</strong></li>
+                        <li>اضغط <strong>"إنشاء نسخة احتياطية"</strong></li>
+                        <li>سيتم إنشاء ملف <code>.carbackup</code> يحتوي على:
+                            <ul>
+                                <li>جميع السيارات</li>
+                                <li>جميع سجلات الصيانة</li>
+                                <li>جميع سجلات الوقود</li>
+                                <li>الإعدادات</li>
+                            </ul>
+                        </li>
+                        <li>احفظ الملف في مكان آمن أو شاركه عبر السحابة</li>
+                    </ol>
+
+                    <h3>استعادة البيانات</h3>
+                    <ol class="numbered-list">
+                        <li>اضغط <strong>"استعادة من ملف"</strong></li>
+                        <li>اختر ملف النسخة الاحتياطية (<code>.carbackup</code>)</li>
+                        <li>أكّد الاستعادة (سيتم استبدال البيانات الحالية)</li>
+                        <li>ستظهر جميع بياناتك فوراً</li>
+                    </ol>
+
+                    <div class="warning-box">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/>
+                            <line x1="12" y1="9" x2="12" y2="13"/>
+                            <line x1="12" y1="17" x2="12.01" y2="17"/>
+                        </svg>
+                        <span><strong>تحذير:</strong> الاستعادة ستستبدل جميع البيانات الحالية. تأكد من عمل نسخة احتياطية للبيانات الحالية أولاً</span>
+                    </div>
+                </div>
+
+                <!-- Tips -->
+                <div class="policy-block">
+                    <h2>💡 نصائح للاستخدام الأمثل</h2>
+
+                    <div class="tips-grid">
+                        <div class="tip-card">
+                            <h4>📝 سجّل الصيانات فوراً</h4>
+                            <p>لا تؤجل تسجيل الصيانة - سجّلها مباشرة بعد الخروج من مركز الخدمة لتجنب النسيان</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h4>🔄 حدّث العداد بانتظام</h4>
+                            <p>حدّث عداد السيارة كل أسبوع أو أسبوعين للحصول على إشعارات دقيقة</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h4>📸 احفظ الفواتير</h4>
+                            <p>احتفظ بفواتير الصيانة في مجلد منفصل (التطبيق لا يخزن الصور حالياً)</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h4>💾 نسخ احتياطي شهري</h4>
+                            <p>اعمل نسخة احتياطية مرة كل شهر أو شهرين لحماية بياناتك</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h4>📊 راجع التقارير</h4>
+                            <p>راجع التقارير الشهرية لمعرفة أنماط الإنفاق واكتشاف الصيانات الزائدة</p>
+                        </div>
+
+                        <div class="tip-card">
+                            <h4>⛽ تعبئة كاملة دائماً</h4>
+                            <p>لحساب استهلاك دقيق، عبّي التنك كاملاً في كل مرة وفعّل خيار "تعبئة كاملة"</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Support -->
+                <div class="policy-block">
+                    <h2>❓ هل تحتاج مساعدة؟</h2>
+                    <p>إذا لم تجد إجابتك في هذا الدليل:</p>
+                    <ul>
+                        <li>📖 راجع <a href="faq.html">الأسئلة الشائعة</a></li>
+                        <li>📧 راسلنا على: <a href="mailto:android@aldaghir.com">android@aldaghir.com</a></li>
+                        <li>🌐 زر <a href="index.html">الموقع الرسمي</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <svg width="32" height="32" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="carGradientFooter" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
+                                    <stop offset="100%" style="stop-color:#357ABD;stop-opacity:1" />
+                                </linearGradient>
+                            </defs>
+                            <g transform="translate(256, 300)">
+                                <path d="M -125 5 L -125 45 Q -125 60 -110 60 L -85 60 L -65 60 L 65 60 L 85 60 L 110 60 Q 125 60 125 45 L 125 5 Q 125 -20 115 -35 L 95 -65 L 75 -80 Q 60 -90 40 -90 L -40 -90 Q -60 -90 -75 -80 L -95 -65 L -115 -35 Q -125 -20 -125 5 Z" fill="url(#carGradientFooter)"/>
+                                <circle cx="-75" cy="60" r="24" fill="#1A1A1A"/>
+                                <circle cx="75" cy="60" r="24" fill="#1A1A1A"/>
+                            </g>
+                        </svg>
+                        <span class="logo-text">CarLog</span>
+                    </div>
+                    <p class="footer-description">تطبيق احترافي لإدارة وتتبع سجلات صيانة سياراتك</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>روابط سريعة</h4>
+                        <ul>
+                            <li><a href="index.html">الرئيسية</a></li>
+                            <li><a href="index.html#features">المميزات</a></li>
+                            <li><a href="guide.html">دليل الاستخدام</a></li>
+                            <li><a href="faq.html">الأسئلة الشائعة</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>قانوني</h4>
+                        <ul>
+                            <li><a href="privacy.html">سياسة الخصوصية</a></li>
+                            <li><a href="terms.html">شروط الاستخدام</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>تواصل معنا</h4>
+                        <ul>
+                            <li><a href="mailto:android@aldaghir.com">android@aldaghir.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 CarLog. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
