@@ -582,6 +582,71 @@ body {
     text-decoration: underline;
 }
 
+.policy-lead {
+    font-size: 1.2rem;
+    color: var(--text-dark);
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
+}
+
+.policy-date a,
+.policy-intro a,
+.policy-toc a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.policy-intro h2,
+.policy-toc h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--text-dark);
+    margin-bottom: 1rem;
+}
+
+.policy-intro ul {
+    margin: 0 0 1rem;
+    padding-inline-start: 1.5rem;
+}
+
+.policy-intro li {
+    color: var(--text-dark);
+    line-height: 1.8;
+    margin-bottom: 0.5rem;
+}
+
+.policy-toc {
+    margin-bottom: 2rem;
+}
+
+.policy-toc ul {
+    list-style: none;
+    columns: 2;
+    column-gap: 2rem;
+    padding: 0;
+    line-height: 2;
+}
+
+.policy-block,
+.policy-intro {
+    scroll-margin-top: 90px;
+}
+
+/* English pages (privacy-en.html) */
+html[dir="ltr"] body {
+    direction: ltr;
+}
+
+html[dir="ltr"] .policy-intro {
+    border-right: 0;
+    border-left: 4px solid var(--primary-color);
+}
+
+html[dir="ltr"] .comparison-table th {
+    text-align: left;
+}
+
 .policy-summary {
     background: linear-gradient(135deg, #f5f7fa, #e8f0fe);
     padding: 40px;
@@ -719,6 +784,10 @@ body {
 
     .summary-grid {
         grid-template-columns: 1fr;
+    }
+
+    .policy-toc ul {
+        columns: 1;
     }
 }
 
