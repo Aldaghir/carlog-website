@@ -1,277 +1,180 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="سياسة الخصوصية لتطبيق CarLog: بياناتك على جوالك، ولا نجمع شيئاً منها.">
-    <link rel="canonical" href="https://carlog.aldaghir.com/privacy.html">
-    <link rel="alternate" hreflang="ar" href="https://carlog.aldaghir.com/privacy.html">
-    <link rel="alternate" hreflang="en" href="https://carlog.aldaghir.com/privacy-en.html">
-    <title>سياسة الخصوصية - CarLog</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800&display=swap" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>سياسة الخصوصية | CarLog</title>
+<meta name="description" content="CarLog يعمل على جوالك، ولا نجمع بياناتك. ما يحفظه التطبيق، ومتى تخرج البيانات من جوالك، والأذونات، والحذف.">
+<link rel="canonical" href="https://carlog.aldaghir.com/privacy.html">
+<link rel="alternate" hreflang="ar" href="https://carlog.aldaghir.com/privacy.html">
+<link rel="alternate" hreflang="en" href="https://carlog.aldaghir.com/en/privacy.html">
+<link rel="alternate" hreflang="x-default" href="https://carlog.aldaghir.com/privacy.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="سياسة الخصوصية | CarLog">
+<meta property="og:description" content="CarLog يعمل على جوالك، ولا نجمع بياناتك. ما يحفظه التطبيق، ومتى تخرج البيانات من جوالك، والأذونات، والحذف.">
+<meta property="og:image" content="https://carlog.aldaghir.com/assets/img/og-ar.png">
+<meta property="og:url" content="https://carlog.aldaghir.com/privacy.html">
+<meta property="og:locale" content="ar_SA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#f4f3ee">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/img/icon-192.png">
+<link rel="apple-touch-icon" href="assets/img/icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@500;600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Arabic:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/site.css">
 </head>
-<body>
-    <!-- Header -->
-    <header class="header">
-        <nav class="nav">
-            <div class="container">
-                <div class="nav-content">
-                    <div class="logo">
-                        <svg width="40" height="40" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <defs>
-                                <linearGradient id="carGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
-                                    <stop offset="100%" style="stop-color:#357ABD;stop-opacity:1" />
-                                </linearGradient>
-                            </defs>
-                            <g transform="translate(256, 300)">
-                                <path d="M -125 5 L -125 45 Q -125 60 -110 60 L -85 60 L -65 60 L 65 60 L 85 60 L 110 60 Q 125 60 125 45 L 125 5 Q 125 -20 115 -35 L 95 -65 L 75 -80 Q 60 -90 40 -90 L -40 -90 Q -60 -90 -75 -80 L -95 -65 L -115 -35 Q -125 -20 -125 5 Z" fill="url(#carGradient)" stroke="#B3E5FC" stroke-width="3"/>
-                                <g transform="translate(-75, 60)">
-                                    <circle r="28" fill="#1A1A1A"/>
-                                    <circle r="24" fill="#2E2E2E"/>
-                                    <circle r="12" fill="#4A4A4A"/>
-                                    <circle r="6" fill="#666666"/>
-                                </g>
-                                <g transform="translate(75, 60)">
-                                    <circle r="28" fill="#1A1A1A"/>
-                                    <circle r="24" fill="#2E2E2E"/>
-                                    <circle r="12" fill="#4A4A4A"/>
-                                    <circle r="6" fill="#666666"/>
-                                </g>
-                                <rect x="-95" y="-50" width="80" height="40" rx="8" fill="#B3E5FC" opacity="0.6"/>
-                                <rect x="15" y="-50" width="80" height="40" rx="8" fill="#B3E5FC" opacity="0.6"/>
-                            </g>
-                        </svg>
-                        <span class="logo-text">CarLog</span>
-                    </div>
-                    <ul class="nav-links">
-                        <li><a href="index.html">الرئيسية</a></li>
-                        <li><a href="index.html#features">المميزات</a></li>
-                        <li><a href="guide.html">دليل الاستخدام</a></li>
-                        <li><a href="faq.html">الأسئلة الشائعة</a></li>
-                        <li><a href="privacy.html" class="active">الخصوصية</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+<body class="page-privacy">
+<a class="skip" href="#main">تخطَّ إلى المحتوى</a>
+<header class="head">
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/img/icon-76.png" alt="" width="38" height="38">CarLog<small>سجل السيارات</small></a>
+    <nav class="nav" id="nav" aria-label="القائمة"><a href="index.html">الرئيسية</a><a href="guide.html">طريقة الاستخدام</a><a href="faq.html">الأسئلة</a><a href="privacy.html" aria-current="page">الخصوصية</a><a class="lang" href="en/privacy.html" hreflang="en" lang="en">English</a></nav>
+    <a class="btn btn-teal" href="https://play.google.com/store/apps/details?id=com.aldaghir.carlog&hl=ar"><svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M4.6 2.3c-.4.3-.6.8-.6 1.4v16.6c0 .6.2 1.1.6 1.4l9.3-9.7L4.6 2.3zm10.7 8.2 2.6-2.7L6.7 1.4c-.3-.2-.7-.2-1-.1l9.6 9.2zm0 1.8-9.6 9.3c.3.1.7.1 1-.1l11.2-6.4-2.6-2.8zm4.8-3.4-2.9-1.6-2.8 2.9 2.8 2.9 2.9-1.6c.8-.5.8-2.1 0-2.6z"/></svg>Google Play</a>
+    <button class="menu-btn" type="button" aria-label="القائمة" aria-expanded="false" aria-controls="nav"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
+  </div>
+</header>
+<main id="main">
+<section class="doc-hero">
+  <div class="wrap">
+    <span class="eyebrow">الخصوصية</span>
+    <h1>سياسة الخصوصية</h1>
+    <p class="lead">CarLog يعمل على جوالك. لا نجمع بياناتك، ولا يصلنا شيء مما تسجّله في التطبيق.</p>
+    <p class="updated">آخر تحديث: 11 نوفمبر 2026 · تنطبق على CarLog 3.0 وما بعده</p>
+  </div>
+</section>
+<div class="wrap doc">
+  <nav class="toc" aria-label="المحتويات"><h4>المحتويات</h4><ol><li><a href="#summary">الخلاصة</a></li><li><a href="#stored">البيانات التي يحفظها التطبيق على جوالك</a></li><li><a href="#not-collected">ما لا نجمعه</a></li><li><a href="#leaves">متى تغادر البيانات جوالك</a></li><li><a href="#android-backup">نسخ Android الاحتياطي ونقل البيانات إلى جوال جديد</a></li><li><a href="#security">الأمان</a></li><li><a href="#permissions">الصلاحيات</a></li><li><a href="#deleting">حفظ بياناتك وحذفها</a></li><li><a href="#children">الأطفال</a></li><li><a href="#changes">التغييرات على هذه السياسة</a></li><li><a href="#law">القانون الساري</a></li><li><a href="#contact">التواصل</a></li></ol></nav>
+  <div class="prose">
+<section id="summary">
+  <h2>الخلاصة</h2>
+  <ul>
+      <li>سياراتك وسجلات الصيانة والوقود والوثائق وإعداداتك محفوظة على جوالك.</li>
+      <li>ليس لدينا خوادم تستقبل بياناتك، ولا في التطبيق إعلانات ولا تحليلات ولا تتبّع، ولا يطلب منك إنشاء حساب.</li>
+      <li>لا يتصل التطبيق بالإنترنت إلا عبر Google Play: لشراء Premium والتحقق منه، ولإرسال تقييم إن اخترت كتابته. وكل ما عدا ذلك يعمل بلا اتصال.</li>
+      <li>لا تغادر بياناتك جوالك إلا بفعل منك، أو بالنسخ الاحتياطي من Google إن كان مفعّلاً في جوالك.</li>
+  </ul>
+  <p>تخص هذه السياسة تطبيق CarLog لأندرويد («التطبيق»)، ونقصد بضمير المتكلم مطوّره. إن لم يتضح لك شيء فيها، فراسلنا على <a href="mailto:android@aldaghir.com">android@aldaghir.com</a>.</p>
+</section>
+<section id="stored">
+  <h2>البيانات التي يحفظها التطبيق على جوالك</h2>
+  <p>يحفظ التطبيق ما يلي على جوالك وحده:</p>
+  <ul>
+      <li><strong>السيارات:</strong> الشركة المصنّعة، والطراز، والسنة، واللون، ورقم اللوحة، وقراءة العداد، والصورة، والملاحظات.</li>
+      <li><strong>الصيانة:</strong> تاريخ كل زيارة، وقراءة العداد، والبنود، والتكلفة، ومركز الخدمة، والملاحظات، وصورة الفاتورة، والصيانة التالية لكل بند، والأعطال.</li>
+      <li><strong>الوقود:</strong> التاريخ، وقراءة العداد، والكمية، ونوع الوقود، والتكلفة، والمحطة، والملاحظات.</li>
+      <li><strong>الوثائق:</strong> الاستمارة، والفحص الدوري، والتأمين، ورخصة القيادة، وغيرها، بتواريخ الإصدار والانتهاء، والجهة، ورقم الوثيقة، والتكلفة، والملاحظات، وموعد التذكير.</li>
+      <li><strong>فترات الصيانة</strong> الخاصة بكل سيارة، و<strong>التذكيرات</strong> التي يعرضها التطبيق.</li>
+      <li><strong>الصور:</strong> نسخة من كل صورة تختارها لسيارة أو فاتورة، في مساحة التطبيق الخاصة. والصورة الأصلية تبقى في مكانها.</li>
+      <li><strong>الإعدادات:</strong> اللغة، والمظهر، والعملة، ووحدة المسافة، والميزانية الشهرية، وقفل البصمة، والنسخ التلقائي.</li>
+      <li><strong>حالة الشراء:</strong> هل اشتريت Premium، كما تخبر بها Google Play.</li>
+      <li><strong>طلب التقييم:</strong> عدد السجلات التي حفظتها، ووقت آخر طلب لتقييمك، ليعرف التطبيق متى يسألك.</li>
+      <li><strong>النسخ الاحتياطية:</strong> التي تنشئها أنت، والتلقائية كل أسبوع (Premium، ويُبقى آخر خمس منها). وتُحفظ في مجلد التنزيلات على جوالك (Download/carLogBackup)، وفي Android 9 وما قبله في مجلد التطبيق.</li>
+  </ul>
+</section>
+<section id="not-collected">
+  <h2>ما لا نجمعه</h2>
+  <p>لا نجمع ولا نستقبل ولا نبيع ولا نشارك:</p>
+  <ul>
+      <li>اسمك أو بريدك أو رقم جوالك أو أي بيانات حساب؛</li>
+      <li>بيانات سياراتك وسجلاتك ووثائقك وصورك؛</li>
+      <li>موقعك؛</li>
+      <li>معرّفات الجهاز أو المعرّف الإعلاني؛</li>
+      <li>إحصائيات الاستخدام أو التحليلات.</li>
+  </ul>
+  <p>لا يحوي التطبيق مكتبات إعلانات ولا مكتبات تحليلات ولا مكتبات تقارير أعطال. وإن وافقت في إعدادات جوالك على مشاركة بيانات الاستخدام والتشخيص مع Google، فقد تعرض لنا Google Play تقارير أعطال مجمّعة لا تحدد هويتك، وفق سياسة Google.</p>
+</section>
+<section id="leaves">
+  <h2>متى تغادر البيانات جوالك</h2>
+  <p>لا تغادر البيانات جوالك إلا في الحالات التالية:</p>
 
-    <!-- Privacy Policy Content -->
-    <section class="policy-section">
-        <div class="container">
-            <div class="policy-content">
-                <h1 class="policy-title">سياسة الخصوصية</h1>
-                <p class="policy-lead">CarLog يعمل على جوالك. لا نجمع بياناتك، ولا يصلنا شيء مما تسجّله في التطبيق.</p>
-                <p class="policy-date">آخر تحديث: 11 نوفمبر 2026 · تنطبق على CarLog 3.0 وما بعده · <a href="privacy-en.html" lang="en" hreflang="en">English</a></p>
+  <h3>الشراء</h3>
+  <p>يُشترى Premium عبر Google Play، وتتولى Google الدفع وفق <a href="https://policies.google.com/privacy" rel="noopener">سياسة خصوصية Google</a>. يتلقى التطبيق حالة الشراء فقط من Google Play، ويتحقق منها من وقت لآخر، ولا نرى بيانات الدفع أبداً.</p>
 
-                <nav class="policy-toc" aria-label="المحتويات">
-                    <h2>المحتويات</h2>
-                    <ul>
-                        <li><a href="#summary">الخلاصة</a></li>
-                        <li><a href="#stored">البيانات على جوالك</a></li>
-                        <li><a href="#not-collected">ما لا نجمعه</a></li>
-                        <li><a href="#leaves">متى تغادر البيانات جوالك</a></li>
-                        <li><a href="#android-backup">نسخ Android ونقل البيانات</a></li>
-                        <li><a href="#security">الأمان</a></li>
-                        <li><a href="#permissions">الصلاحيات</a></li>
-                        <li><a href="#deleting">حفظ البيانات وحذفها</a></li>
-                        <li><a href="#children">الأطفال</a></li>
-                        <li><a href="#changes">التغييرات</a></li>
-                        <li><a href="#law">القانون الساري</a></li>
-                        <li><a href="#contact">التواصل</a></li>
-                    </ul>
-                </nav>
+  <h3>التقييم داخل التطبيق</h3>
+  <p>بعد أن تحفظ خمسة سجلات، قد يطلب التطبيق تقييمك، مرة كل 90 يوماً على الأكثر، وثلاث مرات في الكل. ونافذة التقييم من Google Play: إن كتبت تقييماً، ترسله Google Play وتنشره باسم حسابك في Play، وفق سياسة Google. ولا يرسل التطبيق معه شيئاً من بياناتك.</p>
 
-                <div class="policy-intro" id="summary">
-                    <h2>الخلاصة</h2>
-                    <ul>
-                        <li>سياراتك وسجلات الصيانة والوقود والوثائق وإعداداتك محفوظة على جوالك.</li>
-                        <li>ليس لدينا خوادم تستقبل بياناتك، ولا في التطبيق إعلانات ولا تحليلات ولا تتبّع، ولا يطلب منك إنشاء حساب.</li>
-                        <li>لا يتصل التطبيق بالإنترنت إلا عبر Google Play: لشراء Premium والتحقق منه، ولإرسال تقييم إن اخترت كتابته. وكل ما عدا ذلك يعمل بلا اتصال.</li>
-                        <li>لا تغادر بياناتك جوالك إلا بفعل منك، أو بالنسخ الاحتياطي من Google إن كان مفعّلاً في جوالك.</li>
-                    </ul>
-                    <p>تخص هذه السياسة تطبيق CarLog لأندرويد («التطبيق»)، ونقصد بضمير المتكلم مطوّره. إن لم يتضح لك شيء فيها، فراسلنا على <a href="mailto:android@aldaghir.com">android@aldaghir.com</a>.</p>
-                </div>
+  <h3>ما تشاركه أو تصدّره</h3>
+  <p>ملفات النسخ الاحتياطي وCSV وتقارير PDF تُنشأ على جوالك، ولا تذهب إلا إلى حيث تختار إرسالها أو حفظها.</p>
 
-                <div class="policy-block" id="stored">
-                    <h2>1. البيانات التي يحفظها التطبيق على جوالك</h2>
-                    <p>يحفظ التطبيق ما يلي على جوالك وحده:</p>
-                    <ul>
-                        <li><strong>السيارات:</strong> الشركة المصنّعة، والطراز، والسنة، واللون، ورقم اللوحة، وقراءة العداد، والصورة، والملاحظات.</li>
-                        <li><strong>الصيانة:</strong> تاريخ كل زيارة، وقراءة العداد، والبنود، والتكلفة، ومركز الخدمة، والملاحظات، وصورة الفاتورة، والصيانة التالية لكل بند، والأعطال.</li>
-                        <li><strong>الوقود:</strong> التاريخ، وقراءة العداد، والكمية، ونوع الوقود، والتكلفة، والمحطة، والملاحظات.</li>
-                        <li><strong>الوثائق:</strong> الاستمارة، والفحص الدوري، والتأمين، ورخصة القيادة، وغيرها، بتواريخ الإصدار والانتهاء، والجهة، ورقم الوثيقة، والتكلفة، والملاحظات، وموعد التذكير.</li>
-                        <li><strong>فترات الصيانة</strong> الخاصة بكل سيارة، و<strong>التذكيرات</strong> التي يعرضها التطبيق.</li>
-                        <li><strong>الصور:</strong> نسخة من كل صورة تختارها لسيارة أو فاتورة، في مساحة التطبيق الخاصة. والصورة الأصلية تبقى في مكانها.</li>
-                        <li><strong>الإعدادات:</strong> اللغة، والمظهر، والعملة، ووحدة المسافة، والميزانية الشهرية، وقفل البصمة، والنسخ التلقائي.</li>
-                        <li><strong>حالة الشراء:</strong> هل اشتريت Premium، كما تخبر بها Google Play.</li>
-                        <li><strong>طلب التقييم:</strong> عدد السجلات التي حفظتها، ووقت آخر طلب لتقييمك، ليعرف التطبيق متى يسألك.</li>
-                        <li><strong>النسخ الاحتياطية:</strong> التي تنشئها أنت، والتلقائية كل أسبوع (Premium، ويُبقى آخر خمس منها). وتُحفظ في مجلد التنزيلات على جوالك (Download/carLogBackup)، وفي Android 9 وما قبله في مجلد التطبيق.</li>
-                    </ul>
-                </div>
+  <h3>ما تستورده</h3>
+  <p>ملف CSV أو نسخة احتياطية تختارهما أنت من منتقي الملفات في Android، ويُقرآن على جوالك فقط.</p>
 
-                <div class="policy-block" id="not-collected">
-                    <h2>2. ما لا نجمعه</h2>
-                    <p>لا نجمع ولا نستقبل ولا نبيع ولا نشارك:</p>
-                    <ul>
-                        <li>اسمك أو بريدك أو رقم جوالك أو أي بيانات حساب؛</li>
-                        <li>بيانات سياراتك وسجلاتك ووثائقك وصورك؛</li>
-                        <li>موقعك؛</li>
-                        <li>معرّفات الجهاز أو المعرّف الإعلاني؛</li>
-                        <li>إحصائيات الاستخدام أو التحليلات.</li>
-                    </ul>
-                    <p>لا يحوي التطبيق مكتبات إعلانات ولا مكتبات تحليلات ولا مكتبات تقارير أعطال. وإن وافقت في إعدادات جوالك على مشاركة بيانات الاستخدام والتشخيص مع Google، فقد تعرض لنا Google Play تقارير أعطال مجمّعة لا تحدد هويتك، وفق سياسة Google.</p>
-                </div>
+  <h3>الروابط</h3>
+  <p>موقع التطبيق وهذه السياسة والشروط وصفحة التطبيق في Google Play تُفتح في المتصفح أو في التطبيق الذي تختاره.</p>
 
-                <div class="policy-block" id="leaves">
-                    <h2>3. متى تغادر البيانات جوالك</h2>
-                    <p>لا تغادر البيانات جوالك إلا في الحالات التالية:</p>
-
-                    <h3>الشراء</h3>
-                    <p>يُشترى Premium عبر Google Play، وتتولى Google الدفع وفق <a href="https://policies.google.com/privacy" rel="noopener">سياسة خصوصية Google</a>. يتلقى التطبيق حالة الشراء فقط من Google Play، ويتحقق منها من وقت لآخر، ولا نرى بيانات الدفع أبداً.</p>
-
-                    <h3>التقييم داخل التطبيق</h3>
-                    <p>بعد أن تحفظ خمسة سجلات، قد يطلب التطبيق تقييمك، مرة كل 90 يوماً على الأكثر، وثلاث مرات في الكل. ونافذة التقييم من Google Play: إن كتبت تقييماً، ترسله Google Play وتنشره باسم حسابك في Play، وفق سياسة Google. ولا يرسل التطبيق معه شيئاً من بياناتك.</p>
-
-                    <h3>ما تشاركه أو تصدّره</h3>
-                    <p>ملفات النسخ الاحتياطي وCSV وتقارير PDF تُنشأ على جوالك، ولا تذهب إلا إلى حيث تختار إرسالها أو حفظها.</p>
-
-                    <h3>ما تستورده</h3>
-                    <p>ملف CSV أو نسخة احتياطية تختارهما أنت من منتقي الملفات في Android، ويُقرآن على جوالك فقط.</p>
-
-                    <h3>الروابط</h3>
-                    <p>موقع التطبيق وهذه السياسة والشروط وصفحة التطبيق في Google Play تُفتح في المتصفح أو في التطبيق الذي تختاره.</p>
-
-                    <h3>نسخ Google الاحتياطي</h3>
-                    <p>إن كان مفعّلاً في جوالك، فانظر القسم التالي.</p>
-                </div>
-
-                <div class="policy-block" id="android-backup">
-                    <h2>4. نسخ Android الاحتياطي ونقل البيانات إلى جوال جديد</h2>
-                    <p>إن كان النسخ الاحتياطي من Google مفعّلاً في جوالك، ينسخ Android بيانات CarLog (سياراتك وسجلاتك وصورك وإعداداتك) إلى حسابك في Google، وفق شروط Google، ولا نصل إلى هذه النسخة. وحين تنتقل إلى جوال جديد، بالاستعادة من Google أو بالنقل المباشر بين الجوالين، تنتقل بياناتك معك.</p>
-                    <p>أما حالة الشراء فلا تُنسخ، ويستعيدها التطبيق من Google Play حين تستعمل حساب الشراء نفسه.</p>
-                    <p>وتحدّ Google نسخة كل تطبيق بـ 25 ميغابايت، فإن زادت عليها بياناتك وصورك لم تُنسخ. فاعتمد على النسخ الاحتياطي من داخل التطبيق. وتستطيع إيقاف نسخ Google من إعدادات النسخ الاحتياطي في جوالك.</p>
-                </div>
-
-                <div class="policy-block" id="security">
-                    <h2>5. الأمان</h2>
-                    <ul>
-                        <li><strong>قفل التطبيق (اختياري):</strong> بالبصمة أو بقفل شاشة جوالك، عبر نظام Android، فلا يرى التطبيق بصمتك ولا رمزك. ويعود القفل إذا بقي التطبيق في الخلفية أكثر من دقيقة.</li>
-                        <li><strong>الودجت:</strong> حين يكون التطبيق مقفلاً، لا يعرض الودجت على الشاشة الرئيسية اسم سيارتك ولا تفاصيلها.</li>
-                        <li><strong>النسخ بكلمة مرور:</strong> تُشفَّر سجلاتك وصورك في النسخة بخوارزمية AES-256-GCM، بمفتاح مشتق من كلمة المرور (PBKDF2)، فلا يفتحها إلا من يعرفها.</li>
-                        <li><strong>النسخ بلا كلمة مرور:</strong> مموّهة فقط، ويستطيع أي جوال فيه CarLog استعادتها. ومجلد التنزيلات يصل إليه مدير الملفات وكل تطبيق أذنت له بملفاتك، فاحمِ نسختك بكلمة مرور إن كان فيها ما يهمك.</li>
-                    </ul>
-                </div>
-
-                <div class="policy-block" id="permissions">
-                    <h2>6. الصلاحيات</h2>
-                    <p>لا يطلب التطبيق منك أي إذن. فصلاحياته كلها من النوع العادي الذي يمنحه Android عند التثبيت:</p>
-                    <div class="comparison-table">
-                        <table>
-                            <thead>
-                                <tr><th scope="col">الصلاحية</th><th scope="col">سببها</th></tr>
-                            </thead>
-                            <tbody>
-                                <tr><td>الإنترنت وحالة الشبكة</td><td>الشراء والتقييم عبر Google Play فقط.</td></tr>
-                                <tr><td>الفوترة في Google Play</td><td>شراء Premium.</td></tr>
-                                <tr><td>المصادقة الحيوية والبصمة</td><td>فتح التطبيق ببصمتك، إن فعّلت القفل.</td></tr>
-                                <tr><td>التشغيل عند بدء الجوال، وإبقاء الجهاز نشطاً، وخدمة الواجهة الأمامية</td><td>تضيفها مكتبة WorkManager من Android، لتكمل مهام الخلفية بعد إعادة تشغيل الجوال: النسخ التلقائي، وفحص الصيانة المستحقة، والتحقق من الشراء.</td></tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <p>لا يطلب التطبيق الموقع، ولا الكاميرا، ولا التخزين، ولا جهات الاتصال، ولا الميكروفون، ولا الإشعارات، ولا المعرّف الإعلاني. والصور تختارها من منتقي Android، فلا يحتاج التطبيق إذناً للوصول إلى معرض صورك. والتذكيرات تظهر داخل التطبيق فقط، فلا يرسل إشعارات إلى شريط الجوال.</p>
-                </div>
-
-                <div class="policy-block" id="deleting">
-                    <h2>7. حفظ بياناتك وحذفها</h2>
-                    <ul>
-                        <li>تبقى بياناتك على جوالك حتى تحذفها أنت.</li>
-                        <li>«حذف جميع البيانات» في الإعدادات يزيل كل السيارات، وسجلاتها، ووثائقها، وصورها. وتبقى ملفات النسخ الاحتياطي، فتحذفها من شاشة النسخ الاحتياطي.</li>
-                        <li>حذف التطبيق، أو مسح تخزينه من إعدادات Android، يزيل كل ما حفظه التطبيق في مساحته على جوالك.</li>
-                        <li>أما النسخ الاحتياطية في مجلد التنزيلات فتبقى بعد حذف التطبيق، لتستعيدها إن ثبّتّه من جديد. وتحذفها من شاشة النسخ الاحتياطي أو من مدير الملفات. وفي Android 9 وما قبله تُحذف مع التطبيق، لأنها في مجلده. والنسخ التي أرسلتها أو حفظتها في مكان آخر تبقى حيث وضعتها.</li>
-                        <li>نسخة Google من جوالك تديرها من حسابك في Google، وسجل مشترياتك عند Google Play.</li>
-                    </ul>
-                    <p>ولأننا لا نحتفظ بأي من بياناتك، فليس لدينا ما نصدّره أو نحذفه من جهتنا.</p>
-                </div>
-
-                <div class="policy-block" id="children">
-                    <h2>8. الأطفال</h2>
-                    <p>التطبيق غير موجّه للأطفال دون 13 عاماً، ولا نجمع عن قصد أي بيانات من الأطفال. والتطبيق لا يجمع بيانات من أحد أصلاً.</p>
-                </div>
-
-                <div class="policy-block" id="changes">
-                    <h2>9. التغييرات على هذه السياسة</h2>
-                    <p>إن تغيّرت طريقة تعامل التطبيق مع البيانات، فسنحدّث هذه الصفحة والتاريخ في أعلاها قبل أن يصلك التغيير.</p>
-                </div>
-
-                <div class="policy-block" id="law">
-                    <h2>10. القانون الساري</h2>
-                    <p>تخضع هذه السياسة للقوانين المعمول بها في المملكة العربية السعودية. وفي أي نزاع، تختص به المحاكم السعودية.</p>
-                </div>
-
-                <div class="policy-block" id="contact">
-                    <h2>11. التواصل</h2>
-                    <p>للأسئلة عن الخصوصية: <a href="mailto:android@aldaghir.com">android@aldaghir.com</a></p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-brand">
-                    <div class="logo">
-                        <svg width="32" height="32" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <defs>
-                                <linearGradient id="carGradientFooter" x1="0%" y1="0%" x2="100%" y2="100%">
-                                    <stop offset="0%" style="stop-color:#4A90E2;stop-opacity:1" />
-                                    <stop offset="100%" style="stop-color:#357ABD;stop-opacity:1" />
-                                </linearGradient>
-                            </defs>
-                            <g transform="translate(256, 300)">
-                                <path d="M -125 5 L -125 45 Q -125 60 -110 60 L -85 60 L -65 60 L 65 60 L 85 60 L 110 60 Q 125 60 125 45 L 125 5 Q 125 -20 115 -35 L 95 -65 L 75 -80 Q 60 -90 40 -90 L -40 -90 Q -60 -90 -75 -80 L -95 -65 L -115 -35 Q -125 -20 -125 5 Z" fill="url(#carGradientFooter)"/>
-                                <circle cx="-75" cy="60" r="24" fill="#1A1A1A"/>
-                                <circle cx="75" cy="60" r="24" fill="#1A1A1A"/>
-                            </g>
-                        </svg>
-                        <span class="logo-text">CarLog</span>
-                    </div>
-                    <p class="footer-description">تطبيق احترافي لإدارة وتتبع سجلات صيانة سياراتك</p>
-                </div>
-                <div class="footer-links">
-                    <div class="footer-column">
-                        <h4>روابط سريعة</h4>
-                        <ul>
-                            <li><a href="index.html">الرئيسية</a></li>
-                            <li><a href="index.html#features">المميزات</a></li>
-                            <li><a href="index.html#download">التحميل</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>قانوني</h4>
-                        <ul>
-                            <li><a href="privacy.html">سياسة الخصوصية</a></li>
-                            <li><a href="terms.html">شروط الاستخدام</a></li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h4>تواصل معنا</h4>
-                        <ul>
-                            <li><a href="mailto:android@aldaghir.com">android@aldaghir.com</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2026 CarLog. جميع الحقوق محفوظة.</p>
-            </div>
-        </div>
-    </footer>
+  <h3>نسخ Google الاحتياطي</h3>
+  <p>إن كان مفعّلاً في جوالك، فانظر القسم التالي.</p>
+</section>
+<section id="android-backup">
+  <h2>نسخ Android الاحتياطي ونقل البيانات إلى جوال جديد</h2>
+  <p>إن كان النسخ الاحتياطي من Google مفعّلاً في جوالك، ينسخ Android بيانات CarLog (سياراتك وسجلاتك وصورك وإعداداتك) إلى حسابك في Google، وفق شروط Google، ولا نصل إلى هذه النسخة. وحين تنتقل إلى جوال جديد، بالاستعادة من Google أو بالنقل المباشر بين الجوالين، تنتقل بياناتك معك.</p>
+  <p>أما حالة الشراء فلا تُنسخ، ويستعيدها التطبيق من Google Play حين تستعمل حساب الشراء نفسه.</p>
+  <p>وتحدّ Google نسخة كل تطبيق بـ 25 ميغابايت، فإن زادت عليها بياناتك وصورك لم تُنسخ. فاعتمد على النسخ الاحتياطي من داخل التطبيق. وتستطيع إيقاف نسخ Google من إعدادات النسخ الاحتياطي في جوالك.</p>
+</section>
+<section id="security">
+  <h2>الأمان</h2>
+  <ul>
+      <li><strong>قفل التطبيق (اختياري):</strong> بالبصمة أو بقفل شاشة جوالك، عبر نظام Android، فلا يرى التطبيق بصمتك ولا رمزك. ويعود القفل إذا بقي التطبيق في الخلفية أكثر من دقيقة.</li>
+      <li><strong>الودجت:</strong> حين يكون التطبيق مقفلاً، لا يعرض الودجت على الشاشة الرئيسية اسم سيارتك ولا تفاصيلها.</li>
+      <li><strong>النسخ بكلمة مرور:</strong> تُشفَّر سجلاتك وصورك في النسخة بخوارزمية AES-256-GCM، بمفتاح مشتق من كلمة المرور (PBKDF2)، فلا يفتحها إلا من يعرفها.</li>
+      <li><strong>النسخ بلا كلمة مرور:</strong> مموّهة فقط، ويستطيع أي جوال فيه CarLog استعادتها. ومجلد التنزيلات يصل إليه مدير الملفات وكل تطبيق أذنت له بملفاتك، فاحمِ نسختك بكلمة مرور إن كان فيها ما يهمك.</li>
+  </ul>
+</section>
+<section id="permissions">
+  <h2>الصلاحيات</h2>
+  <p>لا يطلب التطبيق منك أي إذن. فصلاحياته كلها من النوع العادي الذي يمنحه Android عند التثبيت:</p>
+  
+      <table>
+          <thead>
+              <tr><th scope="col">الصلاحية</th><th scope="col">سببها</th></tr>
+          </thead>
+          <tbody>
+              <tr><td>الإنترنت وحالة الشبكة</td><td>الشراء والتقييم عبر Google Play فقط.</td></tr>
+              <tr><td>الفوترة في Google Play</td><td>شراء Premium.</td></tr>
+              <tr><td>المصادقة الحيوية والبصمة</td><td>فتح التطبيق ببصمتك، إن فعّلت القفل.</td></tr>
+              <tr><td>التشغيل عند بدء الجوال، وإبقاء الجهاز نشطاً، وخدمة الواجهة الأمامية</td><td>تضيفها مكتبة WorkManager من Android، لتكمل مهام الخلفية بعد إعادة تشغيل الجوال: النسخ التلقائي، وفحص الصيانة المستحقة، والتحقق من الشراء.</td></tr>
+          </tbody>
+      </table>
+  <p>لا يطلب التطبيق الموقع، ولا الكاميرا، ولا التخزين، ولا جهات الاتصال، ولا الميكروفون، ولا الإشعارات، ولا المعرّف الإعلاني. والصور تختارها من منتقي Android، فلا يحتاج التطبيق إذناً للوصول إلى معرض صورك. والتذكيرات تظهر داخل التطبيق فقط، فلا يرسل إشعارات إلى شريط الجوال.</p>
+</section>
+<section id="deleting">
+  <h2>حفظ بياناتك وحذفها</h2>
+  <ul>
+      <li>تبقى بياناتك على جوالك حتى تحذفها أنت.</li>
+      <li>«حذف جميع البيانات» في الإعدادات يزيل كل السيارات، وسجلاتها، ووثائقها، وصورها. وتبقى ملفات النسخ الاحتياطي، فتحذفها من شاشة النسخ الاحتياطي.</li>
+      <li>حذف التطبيق، أو مسح تخزينه من إعدادات Android، يزيل كل ما حفظه التطبيق في مساحته على جوالك.</li>
+      <li>أما النسخ الاحتياطية في مجلد التنزيلات فتبقى بعد حذف التطبيق، لتستعيدها إن ثبّتّه من جديد. وتحذفها من شاشة النسخ الاحتياطي أو من مدير الملفات. وفي Android 9 وما قبله تُحذف مع التطبيق، لأنها في مجلده. والنسخ التي أرسلتها أو حفظتها في مكان آخر تبقى حيث وضعتها.</li>
+      <li>نسخة Google من جوالك تديرها من حسابك في Google، وسجل مشترياتك عند Google Play.</li>
+  </ul>
+  <p>ولأننا لا نحتفظ بأي من بياناتك، فليس لدينا ما نصدّره أو نحذفه من جهتنا.</p>
+</section>
+<section id="children">
+  <h2>الأطفال</h2>
+  <p>التطبيق غير موجّه للأطفال دون 13 عاماً، ولا نجمع عن قصد أي بيانات من الأطفال. والتطبيق لا يجمع بيانات من أحد أصلاً.</p>
+</section>
+<section id="changes">
+  <h2>التغييرات على هذه السياسة</h2>
+  <p>إن تغيّرت طريقة تعامل التطبيق مع البيانات، فسنحدّث هذه الصفحة والتاريخ في أعلاها قبل أن يصلك التغيير.</p>
+</section>
+<section id="law">
+  <h2>القانون الساري</h2>
+  <p>تخضع هذه السياسة للقوانين المعمول بها في المملكة العربية السعودية. وفي أي نزاع، تختص به المحاكم السعودية.</p>
+</section>
+<section id="contact">
+  <h2>التواصل</h2>
+  <p>للأسئلة عن الخصوصية: <a href="mailto:android@aldaghir.com">android@aldaghir.com</a></p>
+</section>
+  </div>
+</div>
+</main>
+<footer class="foot">
+  <div class="wrap">
+    <div class="about"><a class="brand" href="index.html"><img src="assets/img/icon-76.png" alt="" width="38" height="38">CarLog</a><p>سجل صيانة السيارة ووقودها ووثائقها، على جوالك وحده. بلا حساب ولا إعلانات.</p></div>
+    <div><h4>التطبيق</h4><ul><li><a href="index.html#maintenance">الصيانة</a></li><li><a href="index.html#fuel">الوقود</a></li><li><a href="index.html#documents">الوثائق</a></li><li><a href="index.html#premium">Premium</a></li></ul></div><div><h4>المساعدة</h4><ul><li><a href="guide.html">طريقة الاستخدام</a></li><li><a href="faq.html">الأسئلة الشائعة</a></li><li><a href="mailto:android@aldaghir.com">android@aldaghir.com</a></li></ul></div><div><h4>القانونية</h4><ul><li><a href="privacy.html">سياسة الخصوصية</a></li><li><a href="terms.html">شروط الاستخدام</a></li></ul></div>
+    <div class="base"><span>© 2026 CarLog</span><span>Android 7 وما بعده</span></div>
+  </div>
+</footer>
+<script src="assets/site.js" defer></script>
 </body>
 </html>
